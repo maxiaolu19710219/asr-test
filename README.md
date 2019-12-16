@@ -1,14 +1,5 @@
-@@ -1,76 +0,0 @@
----
-主题: asr测试
-描述: 提供语音转化成文本(asr)和图像识别(ocr)功能
-作者: 马路
-标签: asr,ocr
-颜色: light yellow
-建立时间:  2019/12/16
-修改时间: 2019/12/16
----
-*zyasr*是一个采用在[PaddlePaddle]平台的端到端自动语音识别（ASR）引擎，具体原理参考这篇论文(http://proceedings.mlr.press/v48/amodei16.pdf)。
+# 语音识别: zyasr
+*zyasr*是一个采用在[PaddlePaddle]平台的端到端自动语音识别（ASR）引擎
 愿景是为语音识别在医疗行业，提供易于使用、高效和可扩展的工具，包括自动标注，自我训练，推理，测试模块，以及 快速 部署。
 
 ## 目录
@@ -37,11 +28,10 @@
   cd /mnt/md0/opt/tools
   ls -l
 ```
-其中
 asr_start.sh---启动相关服务：kafka，asr引擎，nlp引擎，zookeeper，ak工作流
 asr_stop.sh---停止相关服务：同上
 status.sh   --- 查看目前asr执行状况，包括未解析记录数，总共要解析记录数。消息监控窗口
-3. 相关执行脚本：
+3. 相关执行脚本
 启动业务引擎生产者服务
 ```
 kafka-console-producer.sh --broker-list deepspeed:9092 --topic next
