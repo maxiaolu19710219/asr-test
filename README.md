@@ -64,6 +64,10 @@ ls
 参看plan目录
 
 ## 下阶段目标
-- 111
+- 增加自训练机制(自我标注--自我训练--网格--误差曲面绘制)
+<p align="center">
+<img src="docs/images/tuning_error_surface.png" width=550>
+<br/>
+</p>
 - 222
 
