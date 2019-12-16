@@ -34,7 +34,8 @@
   ftp密码：zhiying
  ```
 2. 工具使用说明
-```cd /mnt/md0/opt/tools
+```
+cd /mnt/md0/opt/tools
   ls -l
 ```
 其中
