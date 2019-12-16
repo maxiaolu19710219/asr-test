@@ -32,10 +32,10 @@
   系统密码：mxl
   ftp用户名：sunftp
   ftp密码：zhiying
-```
+ ```
 2. 工具使用说明
 ```cd /mnt/md0/opt/tools
-  ll
+  ls -l
 ```
 其中
 asr_start.sh---启动相关服务：kafka，asr引擎，nlp引擎，zookeeper，ak工作流
