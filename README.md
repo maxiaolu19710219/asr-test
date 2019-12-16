@@ -55,11 +55,19 @@ c.启动asr消费者服务
 ````
 kafka-console-consumer.sh --bootstrap-server deepspeed:9092 --from-beginning --topic next
 ````
-##BUG
-请将bug上传到bug目录下
 
-##FAQ
-随时更新faq问题列表目录faq
+## 预训练模型
+```
+cd /mnt/md0/opt/DeepSpeech/dataset/aishell/data_aishell/wav
+ls
+```
+其中dev,test,train三个目录下存放已经训练好的数据，可自行编辑
 
-##计划
-相关测试计划目录plan
+## BUG
+目录名字--bug
+
+## FAQ
+目录名字--faq
+
+## 计划
+目录名字--plan
