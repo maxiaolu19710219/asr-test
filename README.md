@@ -14,8 +14,6 @@
 - [目标](#目标)
 - [准备](#准备)
 - [预训练模型](#预训练模型)
-- [BUG](#BUG)
-- [FAQ](#FAQ)
 - [计划](#计划)
 - [下阶段目标](#下阶段目标)
 
@@ -62,10 +60,5 @@ cd /mnt/md0/opt/DeepSpeech/dataset/aishell/data_aishell/wav
 ls
 ```
 其中dev,test,train三个目录下存放已经训练好的数据，可自行编辑
-
-## BUG
-issues处可以提交bug
-## FAQ
-wiki可编写问题
 ## 计划
 目录名字--plan
