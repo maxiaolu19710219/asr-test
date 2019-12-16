@@ -57,7 +57,7 @@ ls
 ## 下阶段目标
 - 自训练机制(自我标注--自我训练--网格--误差曲面绘制)
 <p align="center">
-<img src="docs/images/tuning_error_surface.png" width=550>
+<img src="doc/images/tuning_error_surface.png" width=550>
 <br/>
 </p>
 
