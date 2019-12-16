@@ -1,10 +1,11 @@
 ---
 主题: asr测试
 描述: 提供语音转化成文本(asr)和图像识别(ocr)功能
-author: 马路
-tags: asr,ocr
-colors: light yellow
-created:  2019/12/16
-modified: 2019/12/16
-
+作者: 马路
+标签: asr,ocr
+颜色: light yellow
+建立时间:  2019/12/16
+修改时间: 2019/12/16
 ---
+*zyasr*是一个采用在[PaddlePaddle]平台的端到端自动语音识别（ASR）引擎，具体原理参考这篇论文(http://proceedings.mlr.press/v48/amodei16.pdf)。
+愿景是为语音识别在医疗行业，提供易于使用、高效和可扩展的工具，包括自动标注，自我训练，推理，测试模块，以及 快速 部署。
