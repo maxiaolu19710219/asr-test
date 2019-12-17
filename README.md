@@ -66,7 +66,7 @@ ls
 </p>
 
 ## FAQ
-欢迎到 [Github Issues](https://github.com/maxiaolu19710219/asr-test/issues)提出问题。
-
+欢迎到 [Github Issues](https://github.com/maxiaolu19710219/asr-test/issues)记录bug
+欢迎到 [Github wiki  ](https://github.com/maxiaolu19710219/asr-test/wiki)提出问题
 
 
