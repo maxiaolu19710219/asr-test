@@ -63,7 +63,7 @@ ls
 <br/>
 </p>
 
-<img src="docs/images/multi_gpu_speedup.png" width=450><br/>
+
 
 
 
