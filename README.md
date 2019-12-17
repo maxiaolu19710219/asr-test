@@ -17,7 +17,8 @@
 
 ## 准备
 1.请确保以下库或工具已安装完毕：`xshell`, `filezliia`, `notepad++`,  可以在tools文件夹中找到安装文件。
-```server地址：192.168.0.60
+```
+  服务器地址：192.168.0.60
   系统用户名：mxl
   系统密码：mxl
   ftp用户名：sunftp
@@ -63,7 +64,8 @@ ls
 <br/>
 </p>
 
-
+## FAQ
+欢迎到 [Github Issues](https://github.com/maxiaolu19710219/asr-test/issues)提出问题。
 
 
 
