@@ -45,7 +45,6 @@ kafka-console-consumer.sh --bootstrap-server deepspeed:9092 --from-beginning --t
 ## 预训练模型
 ```
 cd /mnt/md0/opt/DeepSpeech/dataset/aishell/data_aishell/wav
-ls
 其中dev,test,train三个目录下存放已经训练好的数据，可自行编辑
 ```
 ## 计划
