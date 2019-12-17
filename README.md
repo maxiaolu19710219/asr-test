@@ -40,19 +40,14 @@ asr_stop.sh---停止相关服务：同上
 status.sh   --- 查看目前asr执行状况，包括未解析记录数，总共要解析记录数。消息监控窗口
 ```
 3. 相关执行脚本
+```
 启动业务引擎生产者服务
-```
 kafka-console-producer.sh --broker-list deepspeed:9092 --topic next
-```
 启动业务引擎消费者服务
-```
 kafka-console-consumer.sh --bootstrap-server deepspeed:9092 --from-beginning --topic send
-```
 启动asr消费者服务
-````
 kafka-console-consumer.sh --bootstrap-server deepspeed:9092 --from-beginning --topic next
 ````
-
 ## 预训练模型
 ```
 cd /mnt/md0/opt/DeepSpeech/dataset/aishell/data_aishell/wav
