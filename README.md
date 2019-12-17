@@ -30,9 +30,15 @@
   cd /mnt/md0/opt/tools
   ls -l
 ```
+```
 asr_start.sh---启动相关服务：kafka，asr引擎，nlp引擎，zookeeper，ak工作流
+```
+```
 asr_stop.sh---停止相关服务：同上
+```
+```
 status.sh   --- 查看目前asr执行状况，包括未解析记录数，总共要解析记录数。消息监控窗口
+```
 3. 相关执行脚本
 启动业务引擎生产者服务
 ```
