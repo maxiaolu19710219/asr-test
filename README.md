@@ -29,15 +29,9 @@
 ```
   cd /mnt/md0/opt/tools
   ls -l
-```
-```
-asr_start.sh---启动相关服务：kafka，asr引擎，nlp引擎，zookeeper，ak工作流
-```
-```
-asr_stop.sh---停止相关服务：同上
-```
-```
-status.sh   ---查看目前asr执行状况，包括未解析记录数，总共要解析记录数
+  1.asr_start.sh---启动相关服务：kafka，asr引擎，nlp引擎，zookeeper，ak工作流
+  2.asr_stop.sh---停止相关服务：同上
+  3.status.sh   ---查看目前asr执行状况，包括未解析记录数，总共要解析记录数
 ```
 3. 相关执行脚本
 ```
@@ -52,8 +46,8 @@ kafka-console-consumer.sh --bootstrap-server deepspeed:9092 --from-beginning --t
 ```
 cd /mnt/md0/opt/DeepSpeech/dataset/aishell/data_aishell/wav
 ls
-```
 其中dev,test,train三个目录下存放已经训练好的数据，可自行编辑
+```
 ## 计划
 参看plan目录
 
