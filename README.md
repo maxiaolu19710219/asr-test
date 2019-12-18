@@ -63,7 +63,8 @@ cd /mnt/md0/opt/DeepSpeech/dataset/aishell/data_aishell/wav
 - 增加通过热词(表单标签+内容)的积累，使用word2vector模型训练，进行语义推测。
 - 增加自训练机制(自我标注--自我训练--网格--误差曲面绘制)
 <p align="center">
-<img src="doc/images/tuning_error_surface.png"  width=550><br/>
+<img src="doc/images/tuning_error_surface.png" width=550>
+<br/>调整LibriSpeech的dev-clean集合的误差曲面示例
 </p>
 
 ## FAQ
