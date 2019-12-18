@@ -32,7 +32,9 @@
   1.asr_start.sh---启动相关服务：kafka，asr引擎，nlp引擎，zookeeper，ak工作流
   2.asr_stop.sh---停止相关服务：同上
   3.status.sh   ---查看目前asr执行状况，包括未解析记录数，总共要解析记录数
-  4.cd /mnt/md0/opt/tools/log/process  ------可以全程查看整个流程处理过程
+  cd /mnt/md0/opt/tools/log/process 
+  tail -f process
+  可以全程查看整个流程处理过程
 ```
 3. 相关执行脚本
 ```
