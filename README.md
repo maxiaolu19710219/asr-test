@@ -51,15 +51,13 @@ kafka-console-consumer.sh --bootstrap-server deepspeed:9092 --from-beginning --t
 cd /mnt/md0/opt/DeepSpeech/dataset/aishell/data_aishell/wav
 其中dev,test,train三个目录下存放已经训练好的数据，可自行编辑
 ```
+## 训练素材
+训练素材在dev目录下,包括train，test和tools三个目录
+-  train--存放训练的标注文件和声音文件
+-  test --存放测试的标注文件和声音文件
+-  tools--存放训练相关的工具
 ## 计划
 参看plan目录
-
-## 训练素材
-训练素材在dev目录下,包括train，test和tools三个目录。
-- train--存放训练的标注文件和声音文件
-- test --存放测试的标注文件和声音文件
-- tools--存放训练相关的工具
-
 ## 新增功能
 |  序号  | 时   间  | commit | 内容 |
 | ------ | -------   | ----------   | -----------|
