@@ -56,9 +56,9 @@ cd /mnt/md0/opt/DeepSpeech/dataset/aishell/data_aishell/wav
 
 ## 训练素材
 训练素材在dev目录下,包括train，test和tools三个目录。
-train--存放训练的标注文件和声音文件
-test --存放测试的标注文件和声音文件
-tools--存放训练相关的工具
+- train--存放训练的标注文件和声音文件
+- test --存放测试的标注文件和声音文件
+- tools--存放训练相关的工具
 
 ## 新增功能
 |  序号  | 时   间  | commit | 内容 |
